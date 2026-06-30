@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>منصة المشاهدة</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:Arial,sans-serif;
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.9)),
+url('https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+color:#fff;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.card{
+width:90%;
+max-width:650px;
+background:rgba(20,20,20,.75);
+backdrop-filter:blur(12px);
+padding:40px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 0 40px rgba(0,0,0,.5);
+}
+h1{
+font-size:38px;
+margin-bottom:15px;
+}
+p{
+font-size:18px;
+line-height:1.8;
+color:#ddd;
+margin-bottom:25px;
+}
+.features{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+margin:25px 0;
+}
+.item{
+background:#222;
+padding:15px;
+border-radius:12px;
+font-weight:bold;
+}
+.btn{
+display:inline-block;
+padding:18px 45px;
+background:#e50914;
+color:#fff;
+text-decoration:none;
+border-radius:50px;
+font-size:22px;
+font-weight:bold;
+transition:.3s;
+}
+.btn:hover{
+background:#ff2d37;
+transform:scale(1.05);
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+<h1>🎬 منصة المشاهدة</h1>
+
+<p>
+استمتع بمشاهدة أحدث الأفلام والمسلسلات ومتابعة المباريات بجودة عالية على جميع أجهزتك.
+</p>
+
+<div class="features">
+<div class="item">🎥 أحدث الأفلام</div>
+<div class="item">⚽ بث مباشر</div>
+<div class="item">📺 جودة HD</div>
+<div class="item">📱 جميع الأجهزة</div>
+</div>
+
+<a href="#" class="btn">شاهد الآن</a>
+
+</div>
+
+</body>
+</html>
